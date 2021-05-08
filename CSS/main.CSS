@@ -1,0 +1,93 @@
+body{
+	font-size: 16px;
+	font-family: 'Girassol', cursive;
+	font-family: 'Raleway', sans-serif;	
+}
+
+*,*::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+img{
+	max-width: 100%;
+}
+
+a, a:visited{
+	color: #5e5e5e;
+}
+
+h1{
+	padding-bottom: 1rem;
+}
+
+h2{
+	padding-bottom: 1rem;
+}
+
+.gomb{
+	text-decoration: none;
+	font-family: 'Girassol', cursive;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 3vw;
+	display: inline-block;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	padding-top: .5vw;
+	padding-bottom: .5vw;	
+}
+
+.gomb:hover{
+	text-shadow: 0 0 3px grey, 0 0 5px grey;
+}
+
+.racs{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 1.5rem;
+	margin: 3rem 10%;
+}
+
+.kartya{
+	display: inline-block;
+	background-color: #dedede;
+	border-radius: 1rem;
+	padding:1vw;
+}
+
+.kartya img{
+	padding: 1vw;
+}
+
+details .rejtett{
+	margin: .7rem 0 .2rem 1rem;
+}
+
+details:hover{
+	cursor: pointer;
+}
+
+table{
+	width: 90%;
+}
+
+.tablazat {
+	width: 50%;
+	font-size: 1.5vw;
+	text-align: center;
+	background-color: #dedede;
+	border-radius: 1rem;
+}
+
+.en{
+	height: 40vw;
+	border-radius: 1rem;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+}
+
+
+
+
